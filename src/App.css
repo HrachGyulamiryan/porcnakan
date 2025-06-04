@@ -1,0 +1,86 @@
+.App {
+  background: black;
+  height: 100vh;
+  position: relative;
+  
+}
+
+.container {
+  width: 100%;
+  height: calc(100vh - 114px);
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  color: white;
+  font-size: 105px;
+  font-family: sans-serif;
+}
+
+.support   { background: red; }
+.service   { background: darkcyan; }
+.section   { background: darkgoldenrod; }
+.news      { background: darkgreen; }
+.investers { background: darkmagenta; }
+.home      { background: darkorange; }
+.gallery   { background: darkorchid; }
+.contact   { background: darkturquoise; }
+.call      { background: darkslategrey; }
+.about     { background: slateblue; }
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background: #090909;
+  nav {
+    width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    a {
+      color: white;
+      font-size: 23px;
+      cursor: pointer;
+      text-decoration: none;
+      font-family: sans-serif;
+      text-transform: capitalize;
+    }
+  }
+}
+
+.facebook   {background: red;}
+.instagram  {background: blue;}
+.telegram   {background: blueviolet;}
+.twiter     {background: green;}
+.telephone  {background: grey;}
+.tiktok     {background: #090909;}
+.youtube    {background: #351515;}
+.mail       {background: #1e4226;}
+.google     {background: #111f46;}
+.viber      {background: #4d094d;}
+
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  padding: 15px;
+  a {
+    font-size: 23px;
+    font-family: sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+  }
+}
+
+h3 {
+  color: aliceblue;
+  font-size: 30px;
+  text-align: center;
+  width: 100%;
+}
