@@ -94,16 +94,16 @@ function App() {
           <Route path='*' element={<h3>ejy chi gtnvel</h3>}></Route>
         </Routes>
         <footer>
-            <Link to='/facebook' >Facebook</Link>
-            <Link to='/instagram'>Instagram</Link>
-            <Link to='/telegram' >Telegram</Link>
-            <Link to='/twiter'   >Twiter</Link>
-            <Link to='/telephone'>Telephome</Link>
-            <Link to='/tiktok'>TikTok</Link>
-            <Link to='/youtube'>Youtube</Link>
-            <Link to='/mail'>Mail</Link>
-            <Link to='/google'>Google</Link>
-            <Link to='/viber'>Viber</Link>
+            <Link to='/facebook' >Facebook a</Link>
+            <Link to='/instagram'>Instagram a</Link>
+            <Link to='/telegram' >Telegram a</Link>
+            <Link to='/twiter'   >Twiter a</Link>
+            <Link to='/telephone'>Telephome a</Link>
+            <Link to='/tiktok'>TikTok a</Link>
+            <Link to='/youtube'>Youtube a</Link>
+            <Link to='/mail'>Mail a</Link>
+            <Link to='/google'>Google a</Link>
+            <Link to='/viber'>Viber a</Link>
         </footer>
     </div>
   );
