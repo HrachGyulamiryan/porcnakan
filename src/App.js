@@ -103,7 +103,7 @@ function App() {
             <Link to='/youtube'>Youtube a</Link>
             <Link to='/mail'>Mail a</Link>
             <Link to='/google'>Google a</Link>
-            <Link to='/viber'>Viber a</Link>
+            <Link to='/viber'>Viber </Link>
         </footer>
     </div>
   );
